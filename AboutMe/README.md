@@ -29,7 +29,7 @@ compiler.
 id, and gathers them in a binding object.
 
 
-![Binding](/Readme Images/Binding1.png)
+![Binding](Binding1.png)
 
 Image Credits - udacity
 
