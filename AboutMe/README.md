@@ -43,7 +43,7 @@ Keeping the data in the view also violates the separation of data and presentati
 what is displayed in the view.
 
 
-![Binding](/Readme Images/Binding2.png)
+![Binding](/Readme_Images/Binding2.png)
 
 Image Credits - udacity
 
