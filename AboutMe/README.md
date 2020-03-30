@@ -27,6 +27,8 @@ compiler.
 * findViewById is a costly operation because it traverses the view hierarchy every time it is called.
 * with data binding enabled, the compiler creates references to all views in a <layout> that have an
 id, and gathers them in a binding object.
+
+
 ![Binding](/Readme Images/Binding1.png)
 
 Image Credits - udacity
@@ -39,6 +41,8 @@ Keeping the data in the view also violates the separation of data and presentati
 * The compiler generates a binding object that binds the views and data,
 * In code, you reference and update the data through the binding object, which updates the data, and thus
 what is displayed in the view.
+
+
 ![Binding](/Readme Images/Binding2.png)
 
 Image Credits - udacity
