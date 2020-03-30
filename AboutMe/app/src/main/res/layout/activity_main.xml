@@ -18,7 +18,7 @@
         android:id="@+id/name_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@={myName.name}"
+        android:text="@{myName.name, default=Ankit}"
         android:textAlignment="center"
         style="@style/NameStyle" />
 
@@ -46,7 +46,7 @@
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@{myName.nickname}"
         android:textAlignment="center"
         android:visibility="gone" />
 

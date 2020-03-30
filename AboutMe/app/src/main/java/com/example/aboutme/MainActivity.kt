@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
-    private val myName: MyName = MyName( "Ankit signh")
+    private val myName: MyName = MyName( "Ankit Singh")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
@@ -40,7 +40,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun addNickname(view: View) {
 
-        binding.nicknameText.text = binding.nicknameEdit.text
+        //binding.nicknameText.text = binding.nicknameEdit.text
+
+        //added the data binding to the nickname
+        binding.myName?.nickname = "my name"
 
         //handling the transitions
         binding.nicknameEdit.visibility = View.GONE
