@@ -3,7 +3,7 @@ The repo contains the android projects done as the part of the lab.
 
 ## Accompanying course -
 
-The video lectures were provided by [Udacity](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012).
+The video lectures are provided by [Udacity](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012).
 
 ## Google code labs -
 
