@@ -20,4 +20,6 @@
 * Added listeners to the boxes.
 
 ### Learning 4
-* 
+* Baseline constraints
+* horizontal chaining
+* and more constraints practice.
