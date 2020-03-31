@@ -15,3 +15,5 @@
 * Added box two below the box one.
 
 ### Learning 3
+* Added three aligned boxes to the view.
+* More constraints practice
