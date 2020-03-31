@@ -1,6 +1,6 @@
 # Color My Views
 
-### A project to learn about constraint layouts.
+### A project to learn about constraint layouts. This is the second project in the lecture series.
 
 ### Learning 1
 * Basics of creating UI with the Layout Editor.
