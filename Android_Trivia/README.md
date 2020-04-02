@@ -10,3 +10,8 @@ The Android Trivia application is an application that asks the user trivia quest
 The app navigates using buttons, the Action Bar, and the Navigation Drawer.
 
 
+## Learning 1
+* A fragment is a part of an activity.
+* Created a new Fragment and inflated it with the layout using DatabindingUtil.inflate.
+* Should always return the binding root.
+* Added Fragment in the Main Activity layout.
