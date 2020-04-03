@@ -23,3 +23,7 @@ routes)
 * Added different fragments to the navigation graph.
 * Handled navigation on click of Play button.
 * Used Navigation.createNavigateOnClickListener for navigation.
+
+## Learning 3
+* Added conditional rendering to the application
+* Used view.findNavController().navigate(R.id.action_gameFragment_to_gameOverFragment) for navigation.
