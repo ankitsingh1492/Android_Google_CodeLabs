@@ -27,3 +27,11 @@ routes)
 ## Learning 3
 * Added conditional rendering to the application
 * Used view.findNavController().navigate(R.id.action_gameFragment_to_gameOverFragment) for navigation.
+
+## Learning 4
+* Did back stack manipulation by setting the pop behavior to popTo inclusive.
+* Added more onClick handlers that did some navigation stuff.
+* ```
+binding.nextMatchButton.setOnClickListener{view: View ->
+              view.findNavController().navigate(R.id.action_gameWonFragment_to_gameFragment)}
+```
