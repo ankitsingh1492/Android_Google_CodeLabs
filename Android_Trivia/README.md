@@ -15,3 +15,13 @@ The app navigates using buttons, the Action Bar, and the Navigation Drawer.
 * Created a new Fragment and inflated it with the layout using DatabindingUtil.inflate.
 * Should always return the binding root.
 * Added Fragment in the Main Activity layout.
+
+
+#Learning 2
+* Added Navigation Component to the build.
+* Added Navigation Graph to the build.(Navigation component uses a navigation graph to manage the
+app's navigation. The Navigation Graph is a resource file that contains all the app's destinations and
+routes)
+* Added different fragments to the navigation graph.
+* Handled navigation on click of Play button.
+* Used Navigation.createNavigateOnClickListener for navigation.
