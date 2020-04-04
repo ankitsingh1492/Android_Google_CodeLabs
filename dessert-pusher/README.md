@@ -36,3 +36,4 @@ The lesson is about Activity lifecycle.
 * onStop() - mirror method of onStart(). When the user cannot see the activity.
 * onDestroy() - mirror method of onCreate()
 
+[Useful Link 1](https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-i-single-activities-e49fd3d202ab)
