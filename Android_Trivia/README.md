@@ -34,3 +34,6 @@ routes)
 binding.nextMatchButton.setOnClickListener{view: View ->
               view.findNavController().navigate(R.id.action_gameWonFragment_to_gameFragment)}
 ```
+
+## Learning 5
+* Link the NavController to the ActionBar with NavigationUI.setupWithNavController
