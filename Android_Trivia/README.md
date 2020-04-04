@@ -41,3 +41,7 @@ binding.nextMatchButton.setOnClickListener{view: View ->
 ## Learning 6
 * Created a Menu Resource.
 * override onOptionsItemSelected to connect it to our NavigationUI.
+
+## Learning 7
+* Added Safe Arguments for passing data from one fragment to another.
+* Replaced navigation to action IDs with NavDirections in GameOverFragment, GameWonFragment, and TitleFragment.
