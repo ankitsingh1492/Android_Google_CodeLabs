@@ -45,3 +45,19 @@ binding.nextMatchButton.setOnClickListener{view: View ->
 ## Learning 7
 * Added Safe Arguments for passing data from one fragment to another.
 * Replaced navigation to action IDs with NavDirections in GameOverFragment, GameWonFragment, and TitleFragment.
+
+## Learning 8
+* Created a sharing intent.
+
+```
+private fun getShareIntent() : Intent {
+   val args = GameWonFragmentArgs.fromBundle(arguments)
+   val shareIntent = Intent(Intent.ACTION_SEND)
+        shareIntent.setType("text/plain")
+            .putExtra(Intent.EXTRA_TEXT, getString(R.string.share_success_text, args.numCorrect, args.numQuestions))
+   return shareIntent
+}
+
+```
+* Two types of intent :- Explicit and Implicit.
+* Shared the correct questions answered string from the GameWonFragment.
