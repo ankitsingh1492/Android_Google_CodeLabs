@@ -37,3 +37,7 @@ binding.nextMatchButton.setOnClickListener{view: View ->
 
 ## Learning 5
 * Link the NavController to the ActionBar with NavigationUI.setupWithNavController
+
+## Learning 6
+* Created a Menu Resource.
+* override onOptionsItemSelected to connect it to our NavigationUI.
