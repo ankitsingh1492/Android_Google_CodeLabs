@@ -14,7 +14,6 @@ The App intends to teach about Fragments and Navigation.
 * Should always return the binding root.
 * Added Fragment in the Main Activity layout.
 
-
 ## Learning 2
 * Added Navigation Component to the build.
 * Added Navigation Graph to the build.(Navigation component uses a navigation graph to manage the
@@ -31,7 +30,7 @@ routes)
 ## Learning 4
 * Did back stack manipulation by setting the pop behavior to popTo inclusive.
 * Added more onClick handlers that did some navigation stuff.
-* ```
+```
 binding.nextMatchButton.setOnClickListener{view: View ->
               view.findNavController().navigate(R.id.action_gameWonFragment_to_gameFragment)}
 ```
