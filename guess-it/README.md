@@ -37,3 +37,7 @@ LINKS
 * UI Controller only displays and gets user/OS events.
 * UI Controller does not make decisions.
 * ViewModel never references fragments, activities and views.
+
+LINKS
+* [Saving States](https://developer.android.com/topic/libraries/architecture/saving-states)
+* [Blog - ViewModels: Persistence, onSaveInstanceState](https://medium.com/androiddevelopers/viewmodels-persistence-onsaveinstancestate-restoring-ui-state-and-loaders-fc7cc4a6c090)
