@@ -16,3 +16,24 @@ LINKS
 * [Blog Post - Android Architecture Patterns Part 2: Model-View-Presenter](https://medium.com/upday-devs/android-architecture-patterns-part-2-model-view-presenter-8a6faaae14a5)
 * [Documentation - Guide to App Architecture](https://developer.android.com/jetpack/docs/guide)
 * [Blog Post - Android and architecture](https://android-developers.googleblog.com/2017/05/android-and-architecture.html)
+
+## View Model -
+Abstract class that holds the app's UI data.
+
+LINKS
+
+* [Documentation](https://developer.android.com/topic/libraries/architecture/viewmodel)
+* [View Models : A simple example](https://medium.com/androiddevelopers/viewmodels-a-simple-example-ed5ac416317e)
+
+## Adding a View Model
+
+* Add dependency.
+* Subclass ViewModel.
+* Associated UI controller and ViewModel.
+
+## ViewModel vs UI Controller
+
+* ViewModel holds data for UI.
+* UI Controller only displays and gets user/OS events.
+* UI Controller does not make decisions.
+* ViewModel never references fragments, activities and views.
