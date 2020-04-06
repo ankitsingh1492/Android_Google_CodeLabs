@@ -58,7 +58,7 @@ In livedata case the subject is livedata object and the observers are the UICont
 LINKS
 * [Talk - Fun with livedata](https://www.youtube.com/watch?v=2rO4r-JOQtA)
 * [Documentation - Handling Lifecycles](https://developer.android.com/topic/libraries/architecture/lifecycle)
-* [Documentation - LiveData](https://developer.android.com/topic/libraries/architecture/livedata]
+* [Documentation - LiveData] (https://developer.android.com/topic/libraries/architecture/livedata)
 
 * Added LiveData encapsulation to the GameViewModel
 * Using Kotlin Property called [backing Property](https://kotlinlang.org/docs/reference/properties.html#backing-properties)
