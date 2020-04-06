@@ -77,3 +77,9 @@ A class that knows how to create [ViewModels](https://developer.android.com/refe
 * Have factory construct ViewModel with constructor parameter.
 * Add ViewModel Factory when using ViewModelProviders.
 * Need when we need a value right when a viewmodel is initialized.
+
+# Learning 4
+
+* Data binding.
+
+ViewModel can communicate directly to the view.
