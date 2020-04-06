@@ -82,4 +82,9 @@ A class that knows how to create [ViewModels](https://developer.android.com/refe
 
 * Data binding.
 
-ViewModel can communicate directly to the view.
+ViewModel can communicate directly to the view. without UI Controller being in the middle,
+
+LINKS
+* [Documentation-Layouts and binding expressions](https://developer.android.com/topic/libraries/data-binding/expressions)
+* [Documentation- Listener Bindings](https://classroom.udacity.com/courses/ud9012/lessons/da3967cc-ba85-4045-bb46-dea1c770fb8b/concepts/(https://developer.android.com/topic/libraries/data-binding/expressions#listener_bindings)
+* [Documentation - Use ViewModel to Manage UI-related data](https://developer.android.com/topic/libraries/data-binding/architecture#viewmodel)
