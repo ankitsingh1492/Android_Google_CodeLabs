@@ -63,3 +63,17 @@ LINKS
 * Added LiveData encapsulation to the GameViewModel
 * Using Kotlin Property called [backing Property](https://kotlinlang.org/docs/reference/properties.html#backing-properties)
 * [Kotlin automatically makes getters and setters for our fields](https://kotlinlang.org/docs/reference/properties.html#getters-and-setters)
+
+# Learning 3
+
+## View Model Factory
+
+A class that knows how to create [ViewModels](https://developer.android.com/reference/kotlin/androidx/lifecycle/ViewModelProvider.Factory.html)
+
+## Adding a Constructor
+
+* Create a ViewModel that takes in a constructor parameter.
+* Make a ViewModel Factory for ViewModel
+* Have factory construct ViewModel with constructor parameter.
+* Add ViewModel Factory when using ViewModelProviders.
+* Need when we need a value right when a viewmodel is initialized.
