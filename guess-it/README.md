@@ -41,3 +41,15 @@ LINKS
 LINKS
 * [Saving States](https://developer.android.com/topic/libraries/architecture/saving-states)
 * [Blog - ViewModels: Persistence, onSaveInstanceState](https://medium.com/androiddevelopers/viewmodels-persistence-onsaveinstancestate-restoring-ui-state-and-loaders-fc7cc4a6c090)
+
+# Learning 2
+
+## Live Data
+Live data is an observable data holder class that is lifecycle-aware.
+
+* Live data wraps arounds a data.
+* Live data is observable.
+
+THe observer pattern is where we have objects called a subject. THe subject keeps track of other objects known as observers.
+The observers watch subject when the status of subject changes it notifies the observers by calling a method in the observers.
+In livedata case the subject is livedata object and the observers are the UIControllers.
