@@ -39,3 +39,20 @@ LINKS
 * [DAO](https://developer.android.com/reference/android/arch/persistence/room/Dao.html)
 * [Room Persistence Library](https://developer.android.com/training/data-storage/room/index.html)
 
+# Learning 3 -
+
+### Creating a Room DB
+
+* Create a Public Abstract class that extends roomDataBase.
+* Annotate the class as DataBase.
+* Associate with DAO.
+* Get once instance/reference of DataBase.
+
+## Developer Documentations-
+
+* [Room Database](https://developer.android.com/reference/android/arch/persistence/room/RoomDatabase)
+* [Database  - Annotations](https://developer.android.com/reference/android/arch/persistence/room/Database)
+* [Raw Queries with Room](https://developer.android.com/reference/android/arch/persistence/room/RawQuery)
+* [On Properly using volatile and synchronized](https://developer.android.com/jetpack/docs/guide#separation-of-concerns)
+* [Companion Objects](Companion objects)
+* [Understanding Migrations with ROOM](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929)
