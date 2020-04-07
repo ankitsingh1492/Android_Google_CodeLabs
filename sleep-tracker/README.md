@@ -17,3 +17,8 @@ It also uses and builds on the following techniques from previous lessons:
 
 
 # Learning 1 - 
+
+* Entity - Object or concept to store in the database. Entity class defines a table. Each instance is stored as a table row.
+* [Defining data using Room entities](https://developer.android.com/training/data-storage/room/defining-data.html)
+* [ColumnInfo](https://developer.android.com/reference/android/arch/persistence/room/ColumnInfo)
+* [List of all Room Annotations](https://developer.android.com/reference/android/arch/persistence/room/package-summary#annotations)
