@@ -22,3 +22,20 @@ It also uses and builds on the following techniques from previous lessons:
 * [Defining data using Room entities](https://developer.android.com/training/data-storage/room/defining-data.html)
 * [ColumnInfo](https://developer.android.com/reference/android/arch/persistence/room/ColumnInfo)
 * [List of all Room Annotations](https://developer.android.com/reference/android/arch/persistence/room/package-summary#annotations)
+
+# Learning 2 -
+
+### DAO
+
+Defining and calling kotlin functions in your code that map to sql queries.
+You define those mappings in a DAO or Database Access Obj using annotations and room creates the necessary code for you.
+Think of DAO as defining a custom interface for accessing your DB.
+
+DAO annotations
+@insert , @delete, @update, @query
+
+LINKS
+
+* [DAO](https://developer.android.com/reference/android/arch/persistence/room/Dao.html)
+* [Room Persistence Library](https://developer.android.com/training/data-storage/room/index.html)
+
