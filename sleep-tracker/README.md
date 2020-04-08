@@ -56,3 +56,20 @@ LINKS
 * [On Properly using volatile and synchronized](https://developer.android.com/jetpack/docs/guide#separation-of-concerns)
 * [Companion Objects](Companion objects)
 * [Understanding Migrations with ROOM](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929)
+
+
+# Learning 4 -
+
+### Coroutines
+
+Asynchronous, non blocking (UI has priority) and sequential code.
+
+* [Documentation](https://kotlinlang.org/docs/reference/coroutines-overview.html)
+* [Exceed Android Speed Limit](https://medium.com/androiddevelopers/exceed-the-android-speed-limit-b73a0692abc1)
+
+Coroutines need following -
+
+* Job - A Background job that can be cancelled, can be arranged in parent child hierarchy
+* Dispatcher - Sends off coroutines to run on various Threads.
+* Scope - Combines information regarding the Job, and dispatcher, to define the context in which
+coroutine runs.
